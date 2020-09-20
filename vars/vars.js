@@ -5,5 +5,7 @@ module.exports = {
   CLIENT_SECRET: process.env.CLIENT_SECRET || 'ad2d309521d747489720eba292603981',
 
   BCRYPT_ROUNDS: process.env.BCRYPT_ROUNDS || 4,
-  JWT_SECRET: process.env.JWT_SECRET || ':)'
+  JWT_SECRET: process.env.JWT_SECRET || ':)',
+
+  NODE_ENV: process.env.NODE_ENV || 'development',
 }
